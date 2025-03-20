@@ -1,0 +1,16 @@
+name: RARBG
+pattern: (?<=^|[\s.-])RARBG\b
+description: ''
+tags:
+- Release Group
+tests:
+- expected: true
+  id: 1
+  input: Slumdog.Millionaire.2008.1080p.BluRay.x265-RARBG.mp4
+  lastRun: '2025-03-19T22:31:25.111501'
+  matchSpan:
+    end: 48
+    start: 43
+  matchedContent: RARBG
+  matchedGroups: []
+  passes: true
